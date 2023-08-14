@@ -9,6 +9,9 @@ public class QuizQuestion {
     private String choice3;
     private String choice4;
 
+    public QuizQuestion(){
+    }
+
     public String getQuestion() {
         return question;
     }

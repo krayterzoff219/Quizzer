@@ -8,5 +8,5 @@ public interface QuizQuestionDAO {
 
     public QuizQuestion getRandomQuestion();
     public QuizQuestion getQuestionByNumber();
-    public List<QuizQuestion> getRandomQuestions(int numOfQuestions);
+    public List<QuizQuestion> getRandomQuiz(int numOfQuestions);
 }
