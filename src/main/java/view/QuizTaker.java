@@ -17,6 +17,7 @@ public class QuizTaker {
         try (Scanner userScan = new Scanner(System.in)){
             int numOfQuestions = Integer.parseInt(userScan.nextLine());
             List<QuizQuestion> quiz = dao.getRandomQuiz(numOfQuestions);
+            numOfQuestions = quiz.size();
             int countCorrect = 0;
 
             for(QuizQuestion question : quiz){
